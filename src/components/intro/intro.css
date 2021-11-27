@@ -1,0 +1,14 @@
+.i {
+  display: flex;
+  height: 100vh;
+}
+
+.i-left {
+  flex: 1;
+  background-color: rgb(119, 236, 149);
+}
+
+.i-right {
+  flex: 1;
+  background-color: grey;
+}
