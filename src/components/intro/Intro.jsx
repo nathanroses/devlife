@@ -1,4 +1,5 @@
 import "./intro.css"
+import Me from "../../img/me.png"
 
 const Intro = () => {
     return (
@@ -16,11 +17,19 @@ const Intro = () => {
                       <div className="i-title-item">Designer</div>
                   </div>
                 </div> 
+                <div className="i-desc">
+                    I design and develop websites and applications for customers
+                    big and small. I work together with indie developers to create
+                    new stylish and modern websites as well as online retail.
+                </div>
               </div>
             </div>
-            <div className="i-right">right</div>
+            <div className="i-right">
+                <div className="i-bg"></div>
+                <img src={Me} alt="me in a chair" className="i-img" />
+            </div>
         </div>
-    )
-}
+    );
+};
 
 export default Intro
